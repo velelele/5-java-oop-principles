@@ -24,4 +24,11 @@ public class TimeUnitUtils {
     public static Seconds toSeconds(Milliseconds millis) {
         return new Seconds(millis.toSeconds());
     }
+    public static Minutes toMinutes(TimeUnit timeUnit) {
+        return new Minutes(timeUnit.toMinutes());
+    }
+    public static Hours toHours(TimeUnit timeUnit) {
+        return new Hours(timeUnit.toHours());
+    }
 }
+
